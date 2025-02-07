@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXFileReference section */
@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CC3AC6ED2D548A3A008D436F /* Exceptions for "FaceDetectionApp" folder in "FaceDetectionApp" target */ = {
+		CC3AC6ED2D548A3A008D436F /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,14 +21,7 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CC3AC6DD2D548A39008D436F /* FaceDetectionApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				CC3AC6ED2D548A3A008D436F /* Exceptions for "FaceDetectionApp" folder in "FaceDetectionApp" target */,
-			);
-			path = FaceDetectionApp;
-			sourceTree = "<group>";
-		};
+		CC3AC6DD2D548A39008D436F /* FaceDetectionApp */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (CC3AC6ED2D548A3A008D436F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = FaceDetectionApp; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +92,7 @@
 				};
 			};
 			buildConfigurationList = CC3AC6D62D548A39008D436F /* Build configuration list for PBXProject "FaceDetectionApp" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -107,7 +101,6 @@
 			);
 			mainGroup = CC3AC6D22D548A39008D436F;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = CC3AC6DC2D548A39008D436F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
