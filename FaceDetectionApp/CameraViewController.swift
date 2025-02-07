@@ -18,7 +18,6 @@ class CameraViewController: UIViewController {
     var captureSession: AVCaptureSession?
     var previewLayer: AVCaptureVideoPreviewLayer?
     var captureOutput: AVCapturePhotoOutput?
-//    var videoOutput: AVCaptureVideoDataOutput?
     var faceDetectionRequest: VNRequest?
     var faceLayer = CAShapeLayer()
     var faceDetected = false
@@ -53,8 +52,6 @@ class CameraViewController: UIViewController {
         do {
             let input = try AVCaptureDeviceInput(device: camera)
             captureOutput = AVCapturePhotoOutput()
-//            videoOutput = AVCaptureVideoDataOutput()
-//            videoOutput?.setSampleBufferDelegate(self, queue: DispatchQueue(label: "videoQueue"))
             
             captureSession?.beginConfiguration()
             
@@ -65,9 +62,6 @@ class CameraViewController: UIViewController {
                 if captureSession.canAddOutput(captureOutput!) {
                     captureSession.addOutput(captureOutput!)
                 }
-//                if captureSession.canAddOutput(videoOutput!) {
-//                    captureSession.addOutput(videoOutput!)
-//                }
                 
                 previewLayer?.removeFromSuperlayer()
                 previewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
